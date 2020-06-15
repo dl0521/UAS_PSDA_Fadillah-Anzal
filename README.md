@@ -37,7 +37,7 @@ Project ini membahas Binary Search Tree (BST) dalam bahasa C++, adapun dalam pro
 
 Fitur Yang Dipakai =</blockquote></p>
 
-<h2>Penjelasan Fitur Menu pada Program</h2>
+<h1>Penjelasan Fitur Menu pada Program</h1>
 <p>Pada program tersebut dapat dilihat bahwa terdapat 10 macam fitur di dalam "MENU TUGAS UAS PSDA", mulai dari Menu 1 sampai menu 0. 
 Fungsi dari setiap fitur dalam menu tersebut sebagai berikut.
   
@@ -85,14 +85,22 @@ Fitur ini berfungsi untuk menghapus BST yang telah berhasil dibentuk sebelumnya.
 
 <blockquote>
 	void BinarySearchTree :: InorderTraversal(BinarySearchTree*root) 
+	
 {
     if(!root) 
+    
 	{
+	
         return;
+	
     }
+    
     InorderTraversal(root->left);
+    
     cout << root->value <<"->" ;
+    
     InorderTraversal(root->right);
+    
 }
 </blockquote>
 
@@ -100,14 +108,23 @@ Fitur ini berfungsi untuk menghapus BST yang telah berhasil dibentuk sebelumnya.
 
 <blockquote>
 	void BinarySearchTree :: preorderTraversal(BinarySearchTree*root) 
+	
 {
+
     if(!root) 
+    
 	{
+	
         return;
+	
     }
+    
     cout << root->value << "->";
+    
   	preorderTraversal(root->left);
+	
   	preorderTraversal(root->right);
+	
 }
 </blockquote>
 
@@ -115,14 +132,23 @@ Fitur ini berfungsi untuk menghapus BST yang telah berhasil dibentuk sebelumnya.
 
 <blockquote>
 	void BinarySearchTree :: postorderTraversal(BinarySearchTree*root) 
+	
 {
+
     if(!root) 
+    
 	{
+	
         return;
+	
     }
+    
   	postorderTraversal(root->left);
+	
   	postorderTraversal(root->right);
+	
   	cout << root->value << "->";
+	
 }
 </blockquote>
 
