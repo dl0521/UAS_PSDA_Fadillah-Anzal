@@ -37,10 +37,10 @@ Project ini membahas Binary Search Tree (BST) dalam bahasa C++, adapun dalam pro
 
 ===================================
 
-Fitur Yang Dipakai =</blockquote></p>
+Pilih Fitur : </blockquote></p>
 
 <h1>Penjelasan Fitur Menu pada Program</h1>
-<p>Pada program tersebut dapat dilihat bahwa terdapat 10 macam fitur di dalam "MENU TUGAS UAS PSDA", mulai dari Menu 1 sampai menu 0. 
+<p>Pada program tersebut dapat dilihat bahwa terdapat 10 macam fitur di dalam "MENU TUGAS UAS PSDA", mulai dari Menu 1 sampai menu 10. 
 Fungsi dari setiap fitur dalam menu tersebut sebagai berikut.
   
 <b>1. Insert Value</b>
@@ -87,9 +87,10 @@ Fitur ini berfungsi untuk menghapus BST yang telah berhasil dibentuk sebelumnya.
 
 <blockquote>
 	
-void BinarySearchTree :: InorderTraversal(BinarySearchTree*root) 
+	void BinarySearchTree :: InorderTraversal(BinarySearchTree*root) 
 	
 {
+
     if(!root) 
     
 	{
@@ -103,7 +104,6 @@ void BinarySearchTree :: InorderTraversal(BinarySearchTree*root)
     cout << root->value <<"->" ;
     
     InorderTraversal(root->right);
-    
 }
 
 </blockquote>
@@ -113,8 +113,7 @@ void BinarySearchTree :: InorderTraversal(BinarySearchTree*root)
 
 <blockquote>
 	
-void BinarySearchTree :: preorderTraversal(BinarySearchTree*root) 
-	
+	void BinarySearchTree :: preorderTraversal(BinarySearchTree*root) 
 {
 
     if(!root) 
@@ -140,8 +139,8 @@ void BinarySearchTree :: preorderTraversal(BinarySearchTree*root)
 
 <blockquote>
 	
-void BinarySearchTree :: postorderTraversal(BinarySearchTree*root) 
-	
+	void BinarySearchTree :: postorderTraversal(BinarySearchTree*root) 
+
 {
 
     if(!root) 
@@ -164,6 +163,6 @@ void BinarySearchTree :: postorderTraversal(BinarySearchTree*root)
 
 <h1>Penalaran Luar</h1>
 
-Untuk bentuk program lebih lengkapnya dapat dilihat pada link berikut. [Program_BST](https://github.com/dl0521/UAS_PSDA_Fadillah-Anzal/blob/master/Pemrograman%20UAS_BST_)
+Untuk bentuk program lebih lengkapnya dapat dilihat pada link berikut. [Program_BST_Fadillah](https://github.com/dl0521/UAS_PSDA_Fadillah-Anzal/blob/master/Pemrograman%20UAS_BST_)
 </body>
 </html>
