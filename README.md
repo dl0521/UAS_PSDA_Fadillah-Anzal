@@ -9,9 +9,11 @@ Email : fadillahaana@upnvj.ac.id
 <h1>Deskripsi Umum</h1>
 <p> Project ini merupakan pemenuhan tugas akhir pada mata kuliah Praktikum Sitem Basis Data.
 Project ini membahas Binary Search Tree (BST) dalam bahasa C++, adapun dalam project ini akan memuat pilihsn fitur menu seperti berikut. 
-<blockquote>======== MENU BINARY SEARCH TREE ========
+<blockquote>
+	
+	======== MENU BINARY SEARCH TREE ========
   
-				Silahkan Pilih Menu dibawah ini
+  	    Silahkan Pilih Menu dibawah ini
     
 1. Insert Value
   
@@ -79,11 +81,12 @@ Fitur ini berfungsi untuk menghapus BST yang telah berhasil dibentuk sebelumnya.
 
 <b>0. EXIT</b></p>
 
-<h3>Fungsi Program</h3>
+<h1>Fungsi Program</h1>
 
 <i>* In Order</i>
 
 <blockquote>
+	
 	void BinarySearchTree :: InorderTraversal(BinarySearchTree*root) 
 	
 {
@@ -102,11 +105,13 @@ Fitur ini berfungsi untuk menghapus BST yang telah berhasil dibentuk sebelumnya.
     InorderTraversal(root->right);
     
 }
+
 </blockquote>
 
 <i>* Pre Order</i>
 
 <blockquote>
+	
 	void BinarySearchTree :: preorderTraversal(BinarySearchTree*root) 
 	
 {
@@ -126,11 +131,13 @@ Fitur ini berfungsi untuk menghapus BST yang telah berhasil dibentuk sebelumnya.
   	preorderTraversal(root->right);
 	
 }
+
 </blockquote>
 
 <i>* Post Order</i>
 
 <blockquote>
+	
 	void BinarySearchTree :: postorderTraversal(BinarySearchTree*root) 
 	
 {
@@ -150,9 +157,10 @@ Fitur ini berfungsi untuk menghapus BST yang telah berhasil dibentuk sebelumnya.
   	cout << root->value << "->";
 	
 }
+
 </blockquote>
 
-<h4>Penalaran Luar</h4>
+<h1>Penalaran Luar</h1>
 
 Untuk bentuk program lebih lengkapnya dapat dilihat pada link berikut. [Program_BST](https://github.com/dl0521/UAS_PSDA_Fadillah-Anzal/blob/master/Pemrograman%20UAS_BST_)
 </body>
