@@ -7,35 +7,35 @@ Email : fadillahaana@upnvj.ac.id
 
 <body>
 <h1>Deskripsi Umum</h1>
-<p> Project ini merupakan pemenuhan tugas akhir pada mata kuliah Praktikum Sitem Basis Data.
+<p> Project ini merupakan pemenuhan tugas akhir pada mata kuliah Praktikum Struktur Data dan Algoritma.
 Project ini membahas Binary Search Tree (BST) dalam bahasa C++, adapun dalam project ini akan memuat pilihsn fitur menu seperti berikut. 
 <blockquote>
 	
-	======== MENU BINARY SEARCH TREE ========
+======= MENU BINARY SEARCH TREE =======
   
-  	    Silahkan Pilih Menu dibawah ini
+    Silahkan Pilih Menu dibawah ini
     
-1. Insert Value
+ 1. Insert Value
   
-2. Search Value
+ 2. Search Value
 
-3. Delete Value
+ 3. Delete Value
 
-4. In Order Traversal
+ 4. In Order Traversal
 
-5. Pre Order Traversal
+ 5. Pre Order Traversal
 
-6. Post Order Traversal
+ 6. Post Order Traversal
 
-7. Minimum Value
+ 7. Minimum Value
 
-8. Maximum Value
+ 8. Maximum Value
 
-9. Clear BST
+ 9. Clear BST
 
-0. EXIT
+10. EXIT
 
-=====================================
+===================================
 
 Fitur Yang Dipakai =</blockquote></p>
 
@@ -79,7 +79,7 @@ Fitur ini berfungsi untuk menampilkan nilai paling besar yang telah berhasil dim
 
 Fitur ini berfungsi untuk menghapus BST yang telah berhasil dibentuk sebelumnya. Saat pemilihan fitur ini menu akan menampilkan pemberitahuan <b>"BST BERHASIL DIHAPUS </b>.
 
-<b>0. EXIT</b></p>
+<b>10. EXIT</b></p>
 
 <h1>Fungsi Program</h1>
 
@@ -87,7 +87,7 @@ Fitur ini berfungsi untuk menghapus BST yang telah berhasil dibentuk sebelumnya.
 
 <blockquote>
 	
-	void BinarySearchTree :: InorderTraversal(BinarySearchTree*root) 
+void BinarySearchTree :: InorderTraversal(BinarySearchTree*root) 
 	
 {
     if(!root) 
@@ -113,7 +113,7 @@ Fitur ini berfungsi untuk menghapus BST yang telah berhasil dibentuk sebelumnya.
 
 <blockquote>
 	
-	void BinarySearchTree :: preorderTraversal(BinarySearchTree*root) 
+void BinarySearchTree :: preorderTraversal(BinarySearchTree*root) 
 	
 {
 
@@ -140,7 +140,7 @@ Fitur ini berfungsi untuk menghapus BST yang telah berhasil dibentuk sebelumnya.
 
 <blockquote>
 	
-	void BinarySearchTree :: postorderTraversal(BinarySearchTree*root) 
+void BinarySearchTree :: postorderTraversal(BinarySearchTree*root) 
 	
 {
 
