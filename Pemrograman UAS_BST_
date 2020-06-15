@@ -188,86 +188,86 @@ int main() {
     int x, menu;
     kondisi = true;
 	while (kondisi) {
-    cout<<"======== MENU TUGAS UAS PSDA ========\n";
+    cout<<"======== MENU BINARY SEARCH TREE ========\n";
     cout<<"    Silahkan Pilih Menu dibawah ini    ";
     cout<<endl									   ;
-	cout<<"1. Insert Value     			     	\n";
+    cout<<"1. Insert Value     			     	\n";
     cout<<"2. Search Value     			      	\n";
-    cout<<"3. Delete Value       			 	\n";
-    cout<<"4. In Order Traversal			   	\n";
-    cout<<"5. Pre Order Traversal  				\n";
-    cout<<"6. Post Order Traversal 				\n";
-    cout<<"7. Manimum Value                     \n";
-    cout<<"8. Maksimum Value					\n";
-    cout<<"9. Clear BST  						\n";
+    cout<<"3. Delete Value       			\n";
+    cout<<"4. In Order Traversal		   	\n";
+    cout<<"5. Pre Order Traversal  			\n";
+    cout<<"6. Post Order Traversal 			\n";
+    cout<<"7. Minimum Value        	                \n";
+    cout<<"8. Maximum Value				\n";
+    cout<<"9. Clear BST 				\n";
     cout<<"0. EXIT  		                   	\n";
-    cout<<"=====================================\n";
-    cout<<"\n";
-    cout<<"Fitur Yang Dipakai =		            \n";
+    cout<<"=====================================	\n";
+    cout<<"						\n";
+    cout<<"Pilih Fitur  :			        \n";
     cin >> menu;
     
     	switch (menu) {
-        	case 1: cout<<"MASUKKAN NILAI = ";
-					cin>> x;
-    				root= d.Insert(root, x);
-    				cout<<"NILAI DIMASUKAN\n";
-            		break ;
+        case 1: cout<<"MASUKKAN NILAI : ";
+		cin>> x;
+    		root= d.Insert(root, x);
+    			cout<<"NILAI DIMASUKAN\n";
+            	break ;
 
-        	case 2: cout<<"MASUKKAN NILAI = ";
-					cin>> x;
-    				if(d.find_Leaves(root, x))
-                        cout<<"NILAI DITEMUKAN\n";
-                    else
-                        cout<<"NILAI TIDAK DITEMUKAN\n";
-            		break ;
+        case 2: cout<<"MASUKKAN NILAI : ";
+		cin>> x;
+    		if(d.find_Leaves(root, x))
+               		cout<<"NILAI DITEMUKAN\n";
+                else
+                	cout<<"NILAI TIDAK DITEMUKAN\n";
+            	break ;
 
-            case 3: cout<<"MASUKKAN NILAI = ";
-					cin>> x;
-					temp= d.deleteLeaves(root, x);
-    				if(temp)
-					{
-                        root = temp;
-                        cout<<"NILAI DIHAPUS\n";
-    				}
-                    else
-                        cout<<"NILAI TIDAK DITEMUKAN\n";
-            		break ;
+         case 3: cout<<"MASUKKAN NILAI : ";
+		 cin>> x;
+		 temp= d.deleteLeaves(root, x);
+    		 if(temp)
+		 {
+                    root = temp;
+                    cout<<"NILAI DIHAPUS\n";
+    		 }
+                 else
+                    cout<<"NILAI TIDAK DITEMUKAN\n";
+            	 break ;
 
-        	case 4: cout<<"In Order Traversal= \n";
-					d.InorderTraversal(root);
-					cout<<endl;
-            		break ;
+         case 4: cout<<"In Order Traversal : \n";
+	   	  d.InorderTraversal(root);
+		  	cout<<endl;
+            	 break ;
 
-        	case 5: cout<<"Pre Order Traversal= \n";
-					d.preorderTraversal(root);
-					cout<<endl;
-            		break ;
+         case 5: cout<<"Pre Order Traversal : \n";
+		  d.preorderTraversal(root);
+		  	cout<<endl;
+            	  break ;
 
-			case 6: cout<<"Post Order Traversal= \n";
-					d.postorderTraversal(root);
-					cout<<endl;
-            		break ;
+	  case 6: cout<<"Post Order Traversal : \n";
+		  d.postorderTraversal(root);
+		  	cout<<endl;
+            	  break ;
 
-			case 7: cout<<"NILAI TERKECIL = \n"; 
-					cout<< d.minLeaves(root);
-					cout<<endl;
+	  case 7: cout<<"NILAI TERKECIL : \n"; 
+			cout<< d.minLeaves(root);
+				cout<<endl;
                     break;
 
-			case 8: cout<<"NILAI TERBESAR = \n"; 
-					cout<< d.maxLeaves(root);
-					cout<<endl;
+	  case 8: cout<<"NILAI TERBESAR : \n"; 
+			cout<< d.maxLeaves(root);
+				cout<<endl;
                     break;
                     
-            case 9: root = d.delete_tree(root);
-                    cout<<"BST BERHASIL DIHAPUS"<<endl;
+           case 9: root = d.delete_tree(root);
+           	    	cout<<" BST BERHASIL DIHAPUS"<<endl;
                     break;
 
-        	case 0: kondisi = false;
-        			return 0;
-					break;
+           case 0: kondisi = false;
+        	   return 0;
+		   break;
 					
-        	default:cout<< "Silahkan Coba Lagi.\n\n";
-					break;
+          default: cout<< "Silahkan Coba Lagi.\n\n";
+	           break;
 			}
 		}
 	}
