@@ -128,8 +128,6 @@ Fitur ini berfungsi untuk menghapus BST yang telah berhasil dibentuk sebelumnya.
 
 <h4>Penalaran Luar</h4>
 
-Untuk bentuk program lebih lengkapnya dapat dilihat pada link berikut. 
-
-[Your Link](https://github.com/dl0521/UAS_PSDA_Fadillah-Anzal/blob/master/Pemrograman%20UAS_BST_)
+Untuk bentuk program lebih lengkapnya dapat dilihat pada link berikut. [Program_BST](https://github.com/dl0521/UAS_PSDA_Fadillah-Anzal/blob/master/Pemrograman%20UAS_BST_)
 </body>
 </html>
