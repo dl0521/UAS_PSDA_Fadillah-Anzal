@@ -83,7 +83,7 @@ Fitur ini berfungsi untuk menghapus BST yang telah berhasil dibentuk sebelumnya.
 
 <h1>Fungsi Program</h1>
 
-<i>* In Order</i>
+<b><i>* In Order</i></b>
 
 <blockquote>
 	
@@ -108,7 +108,8 @@ Fitur ini berfungsi untuk menghapus BST yang telah berhasil dibentuk sebelumnya.
 
 </blockquote>
 
-<i>* Pre Order</i>
+
+<b><i>* Pre Order</i></b>
 
 <blockquote>
 	
@@ -134,7 +135,8 @@ Fitur ini berfungsi untuk menghapus BST yang telah berhasil dibentuk sebelumnya.
 
 </blockquote>
 
-<i>* Post Order</i>
+
+<b><i>* Post Order</i></b>
 
 <blockquote>
 	
