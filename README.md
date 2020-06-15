@@ -13,7 +13,7 @@ Project ini membahas Binary Search Tree (BST) dalam bahasa C++, adapun dalam pro
 	
 ======= MENU BINARY SEARCH TREE =======
   
-    Silahkan Pilih Menu dibawah ini
+    Silahkan Pilih Fitur dibawah ini
     
  1. Insert Value
   
@@ -40,16 +40,16 @@ Project ini membahas Binary Search Tree (BST) dalam bahasa C++, adapun dalam pro
 Pilih Fitur : </blockquote></p>
 
 <h1>Penjelasan Fitur Menu pada Program</h1>
-<p>Pada program tersebut dapat dilihat bahwa terdapat 10 macam fitur di dalam "MENU TUGAS UAS PSDA", mulai dari Menu 1 sampai menu 10. 
+<p>Pada program tersebut dapat dilihat bahwa terdapat 10 macam fitur di dalam <b>"MENU BINARY SEARCH TREE"</b>, mulai dari Menu 1 sampai menu 10. 
 Fungsi dari setiap fitur dalam menu tersebut sebagai berikut.
   
 <b>1. Insert Value</b>
 
-Fitur ini berfungsi untuk memasukkan nilai kedalam BST. Menu akan memunculkan perintah <b>"MASUKKAN NILAI : "</b> , kemudian saat nilai berhasil dimasukkan maka akan muncul pemberitahuan <b>"NILAI DIMASUKKAN"</b>.
+Fitur ini berfungsi untuk memasukkan nilai kedalam BST. Menu akan memunculkan perintah <b>"MASUKKAN NILAI : "</b>, kemudian saat nilai berhasil dimasukkan maka akan muncul pemberitahuan <b>"NILAI DIMASUKKAN"</b>.
   
 <b>2. Search Value</b>
 
-Fitur ini berfungsi untuk menampilkan nilai yang ingin dicari. Jika nilai yang dicari sudah dimasukkan sebelumnya maka menu akan menampilkan pemberitahuan <b>"NILAI DITEMUKAN"</b> , namun jika nilai belum dimasukkan sebelumnya maka menu akan menampilkan pemberitahuan <b>"NILAI TIDAK DITEMUKAN"</b>.
+Fitur ini berfungsi untuk menampilkan nilai yang ingin dicari. Jika nilai yang dicari sudah dimasukkan sebelumnya maka menu akan menampilkan pemberitahuan <b>"NILAI DITEMUKAN"</b>, namun jika nilai belum dimasukkan sebelumnya maka menu akan menampilkan pemberitahuan <b>"NILAI TIDAK DITEMUKAN"</b>.
 
 <b>3. Delete Value</b>
 
@@ -69,15 +69,15 @@ Fitur ini berfungsi untuk menampilkan nilai-nilai yang sudah dimasukkan kedalam 
 
 <b>7. Minimum Value</b>
 
-Fitur ini berfungsi untuk menampilkan nilai paling terkecil yang telah berhasil dimasukkan sebelumnya. Menu akan menampilkan pemberitahuan <b>"NILAI TERKECIL : </b> bersamaan dengan nilai terkecil yang muncul.
+Fitur ini berfungsi untuk menampilkan nilai paling terkecil yang telah berhasil dimasukkan sebelumnya. Menu akan menampilkan pemberitahuan <b>"NILAI TERKECIL : "</b> bersamaan dengan nilai terkecil yang muncul.
 
 <b>8. Maximum Value</b>
 
-Fitur ini berfungsi untuk menampilkan nilai paling besar yang telah berhasil dimasukkan sebelumnya. Menu akan menampilkan pemberitahuan <b>"NILAI TERBESAR : </b> bersamaan dengan nilai terbesar yang muncul.
+Fitur ini berfungsi untuk menampilkan nilai paling besar yang telah berhasil dimasukkan sebelumnya. Menu akan menampilkan pemberitahuan <b>"NILAI TERBESAR : "</b> bersamaan dengan nilai terbesar yang muncul.
 
 <b>9. Clear BST</b>
 
-Fitur ini berfungsi untuk menghapus BST yang telah berhasil dibentuk sebelumnya. Saat pemilihan fitur ini menu akan menampilkan pemberitahuan <b>"BST BERHASIL DIHAPUS </b>.
+Fitur ini berfungsi untuk menghapus BST yang telah berhasil dibentuk sebelumnya. Saat pemilihan fitur ini menu akan menampilkan pemberitahuan <b>"BST BERHASIL DIHAPUS"</b>.
 
 <b>10. EXIT</b></p>
 
@@ -163,6 +163,6 @@ Fitur ini berfungsi untuk menghapus BST yang telah berhasil dibentuk sebelumnya.
 
 <h1>Penalaran Luar</h1>
 
-Untuk bentuk program lebih lengkapnya dapat dilihat pada link berikut. [[Pemrograman_UAS_BST_]](https://github.com/dl0521/UAS_PSDA_Fadillah-Anzal/blob/master/Pemrograman%20UAS_BST_)
+Untuk bentuk program lebih lengkapnya dapat dilihat pada link berikut. [[Pemrograman UAS_BST_]](https://github.com/dl0521/UAS_PSDA_Fadillah-Anzal/blob/master/Pemrograman%20UAS_BST_)
 </body>
 </html>
