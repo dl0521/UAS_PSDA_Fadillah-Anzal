@@ -163,6 +163,6 @@ Fitur ini berfungsi untuk menghapus BST yang telah berhasil dibentuk sebelumnya.
 
 <h1>Penalaran Luar</h1>
 
-Untuk bentuk program lebih lengkapnya dapat dilihat pada link berikut. [[BST_Dilla.cpp]](https://github.com/dl0521/UAS_PSDA_Fadillah-Anzal/blob/master/BST_Dilla%20.cpp)
+Untuk bentuk program lebih lengkapnya dapat dilihat pada link berikut. [[Pemrograman_UAS_BST_]](https://github.com/dl0521/UAS_PSDA_Fadillah-Anzal/blob/master/Pemrograman%20UAS_BST_)
 </body>
 </html>
