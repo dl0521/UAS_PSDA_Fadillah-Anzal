@@ -190,16 +190,16 @@ int main() {
 	while (kondisi) {
     cout<<"======== MENU TUGAS UAS PSDA ========\n";
     cout<<"    Silahkan Pilih Menu dibawah ini    ";
-    cout<<endl									   ;
-	cout<<"1. Insert BST     			     	\n";
+    cout<<endl				   		   ;
+    cout<<"1. Insert BST     			     	\n";
     cout<<"2. Search BST     			      	\n";
-    cout<<"3. Delete BST        			 	\n";
-    cout<<"4. In Order Traversal			   	\n";
-    cout<<"5. Pre Order Traversal  				\n";
-    cout<<"6. Post Order Traversal 				\n";
-    cout<<"7. Manimum Value BST                 \n";
-    cout<<"8. Maksimum Value BST				\n";
-    cout<<"9. Clear BST  						\n";
+    cout<<"3. Delete BST        		 	\n";
+    cout<<"4. In Order Traversal		   	\n";
+    cout<<"5. Pre Order Traversal  			\n";
+    cout<<"6. Post Order Traversal			\n";
+    cout<<"7. Manimum Value BST   	                \n";
+    cout<<"8. Maksimum Value BST			\n";
+    cout<<"9. Clear BST  				\n";
     cout<<"0. EXIT  		                   	\n";
     cout<<"=====================================\n";
     cout<<"\n";
@@ -213,7 +213,7 @@ int main() {
     				cout<<"DATA DIMASUKAN\n";
             		break ;
 
-        	case 2: cout<<"Masukkan DATA = ";
+       		case 2: cout<<"Masukkan DATA = ";
 					cin>> x;
     				if(d.find_Leaves(root, x))
                         cout<<"DATA DITEMUKAN\n";
@@ -221,7 +221,7 @@ int main() {
                         cout<<"DATA TIDAK DITEMUKAN\n";
             		break ;
 
-            case 3: cout<<"Masukkan DATA = ";
+        	case 3: cout<<"Masukkan DATA = ";
 					cin>> x;
 					temp= d.deleteLeaves(root, x);
     				if(temp)
@@ -243,22 +243,22 @@ int main() {
 					cout<<endl;
             		break ;
 
-			case 6: cout<<"Post Order Traversal= \n";
+		case 6: cout<<"Post Order Traversal= \n";
 					d.postorderTraversal(root);
 					cout<<endl;
             		break ;
 
-			case 7: cout<<"DATA TERKECIL = \n"; 
+		case 7: cout<<"DATA TERKECIL = \n"; 
 					cout<< d.minLeaves(root);
 					cout<<endl;
                     break;
 
-			case 8: cout<<"DATA TERBESAR = \n"; 
+		case 8: cout<<"DATA TERBESAR = \n"; 
 					cout<< d.maxLeaves(root);
 					cout<<endl;
                     break;
                     
-            case 9: root = d.delete_tree(root);
+                case 9: root = d.delete_tree(root);
                     cout<<"Clearing Tree, Done"<<endl;
                     break;
 
