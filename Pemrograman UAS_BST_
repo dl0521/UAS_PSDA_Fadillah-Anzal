@@ -189,7 +189,7 @@ int main() {
     kondisi = true;
 	while (kondisi) {
     cout<<"======== MENU BINARY SEARCH TREE ========\n";
-    cout<<"    Silahkan Pilih Menu dibawah ini    ";
+    cout<<"    Silahkan Pilih Fitur dibawah ini    ";
     cout<<endl									   ;
     cout<<"1. Insert Value     			     	\n";
     cout<<"2. Search Value     			      	\n";
