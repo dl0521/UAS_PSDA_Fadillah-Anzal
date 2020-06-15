@@ -200,7 +200,7 @@ int main() {
     cout<<"7. Minimum Value        	                \n";
     cout<<"8. Maximum Value				\n";
     cout<<"9. Clear BST 				\n";
-    cout<<"0. EXIT  		                   	\n";
+    cout<<"10. EXIT  		                   	\n";
     cout<<"=====================================	\n";
     cout<<"						\n";
     cout<<"Pilih Fitur  :			        \n";
